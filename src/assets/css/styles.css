@@ -1,1 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.grid {
+  display: grid;
+}
+.grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+.grid-cols-3 {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+
+.justify-center {
+    justify-content: center;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.h-40 {
+  height: 10rem;
+}
+
+.w-96 {
+    width: 24rem;
+}
+
+.h-screen {
+  height: 100vh;
+}
+.bg-black {
+  background-color: black;
+}
+
+.rounded-full {
+  border-radius: 9999px;
+}
+
+.text-white {
+  color: white;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.col-span-1 {
+    grid-column: span 1 / span 1;
+}
+
+.col-span-2 {
+    grid-column: span 2 / span 2;
+}
+
+.bg-beige {
+  background-color: beige;
+}
+
+.grid-rows-6 {
+  grid-template-rows: repeat(6, minmax(0, 1fr));
+}
+
+.pt-4 {
+  padding-top: 1rem;
+}
+
+.pl-4 {
+padding-left: 1rem;
+}
+
+.pt-8 {
+  padding-top: 2rem;
+}
+.px-8 {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.underline {
+  text-decoration: underline;
+}
+.col-start-2 {   grid-column-start: 2; }  
+.col-end-4 {   grid-column-end: 4; }
+
+.h-full {
+  height: 100%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.italic{
+  font-style: italic;
+}
+
+.h-20 {
+  height: 5rem;
+}
+
+.py-8 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.pt-8 {
+  
+}
+
+.text-white {
+  color: white;
+}
 
