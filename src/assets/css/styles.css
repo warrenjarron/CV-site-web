@@ -164,4 +164,25 @@ padding-left: 4rem;
 }
 
   
+.bg-img {
+  background-image: url(../img/ffflurry.svg);
+}
 
+.opacity-75 {
+opacity:0.8;
+}
+
+.no-underline {
+  text-decoration: none;
+}
+
+.opacity-none {
+  opacity: 0;
+}
+.bg-background-img {
+  background-image: url(../img/hhhorizon\ \(2\).svg);
+}
+
+.bg-size {
+  background-size: cover;
+}
