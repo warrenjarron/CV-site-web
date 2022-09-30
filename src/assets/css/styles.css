@@ -186,3 +186,10 @@ opacity:0.8;
 .bg-size {
   background-size: cover;
 }
+
+
+.blur {
+  backdrop-filter: blur(10px);
+}
+
+
