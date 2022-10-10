@@ -119,9 +119,9 @@ padding-left: 4rem;
   padding-bottom: 2rem;
 }
 
-.pt-8 {
+/* .pt-8 {
   
-}
+} */
 
 .text-white {
   color: white;
@@ -237,6 +237,12 @@ pb-24 {
   .w-96 {
     width:460px ;
     
+  }
+  .ml-10 {
+    margin-left: 10px;
+  }
+  .w-full {
+    width: 393px;
   }
   
   .flex {
