@@ -146,6 +146,9 @@ padding-left: 4rem;
 .border-cadeblue {
   border-color: cadetblue;
 }
+.w-2-16 {
+  width: 20%;
+}
 
 .mt-10 {
   margin-top: 10px;
@@ -196,6 +199,14 @@ opacity:0.8;
   padding-top: 4rem;
 }
 
+.p-10 {
+  padding: 22px;
+}
+
+.w-11-12 {
+  width: 98%;
+}
+
 
 
 
@@ -230,19 +241,25 @@ width: 255px;
 pb-24 {
   padding-bottom: 32px;
 }
+.ml-10 {
+  margin-left: 10px;
+}
 
 } 
 
 @media screen and (max-width: 425px) {
-  .w-96 {
-    width:460px ;
+  .w-9-12 {
+    width:75% ;
     
+  }
+  .w-10-12 {
+    width: 81%;
   }
   .ml-10 {
     margin-left: 10px;
   }
   .w-full {
-    width: 393px;
+    width: 90%;
   }
   
   .flex {
