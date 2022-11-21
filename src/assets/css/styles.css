@@ -264,9 +264,9 @@ pb-24 {
   .ml-10 {
     margin-left: 10px;
   }
-  .w-full {
-    width: 90%;
-  }
+ .text-white {
+  color: white
+ }
   
   .flex {
     display: flex;
